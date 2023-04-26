@@ -1,0 +1,11 @@
+[Adblock Plus 2.0]
+! Version: 1
+! Title: Block youtube shorts
+! Last modified:
+! Expires: 7 days (update frequency)
+! Homepage: https://github.com/meronogbai/content-filters
+!
+www.youtube.com###items ytd-guide-entry-renderer:nth-child(2)[is-primary]
+www.youtube.com###items > ytd-mini-guide-entry-renderer:nth-child(2)
+www.youtube.com###contents > ytd-reel-shelf-renderer
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
